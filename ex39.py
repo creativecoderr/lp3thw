@@ -76,3 +76,15 @@ print(f"The city for the state 'GJ' is: {city}")
 
 print("-" * 100)
 # print(states, cities)
+
+
+my_list = { "name":["Ratul", "R"], 
+            "nummber" : 9888123123,
+            "nickname" : "Rama"}
+
+
+print(my_list)
+
+del my_list["nickname"]
+
+print(my_list)
